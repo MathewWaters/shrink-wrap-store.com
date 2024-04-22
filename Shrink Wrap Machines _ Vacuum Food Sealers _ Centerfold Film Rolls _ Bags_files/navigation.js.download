@@ -1,0 +1,146 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		binding_machines_tab_over = newImage("images/binding-machines-tab-over.gif");
+		display_racks_tab_over = newImage("images/display-racks-tab-over.gif");
+		paper_cutters_tab_over = newImage("images/paper-cutters-tab-over.gif");
+		paper_folders_tab_over = newImage("images/paper-folders-tab-over.gif");
+		paper_shredders_tab_over = newImage("images/paper-shredders-tab-over.gif");
+		preloadFlag = true;
+	}
+}
+
+function preloadImages2() {
+	if (document.images) {
+		comb_tab_over = newImage("images/sws_cathead_gunsover.gif");
+		coil_tab_over = newImage("images/sws_cathead_tunnover.gif");
+		wire_tab_over = newImage("images/sws_cathead_shriover.gif");
+		book_tab_over = newImage("images/sws_cathead_vacuover.gif");
+		velo_tab_over = newImage("images/sws_cathead_bandover.gif");
+		stap_tab_over = newImage("images/sws_cathead_suppover.gif");
+		preloadFlag = true;
+	}
+}
+function checkExtOps(frmname)
+{
+ //go through each element to see if any are dropdowns, check to see if something is selected.
+ for(i=0; i < frmname.length; i++)
+ {  
+  if(frmname.elements[i].type == 'select-one' || frmname.elements[i].type == 'select-multiple')
+  {
+   if(frmname.elements[i].selectedIndex==0)
+   {
+    alert("Please select an option.");
+    frmname.elements[i].focus();
+    return false;
+   }
+  }
+ } 
+ return true;
+}
+
+// this function is used for the holiday popup from the home page.
+function PopUp()
+{
+	if(document.cookie==null || document.cookie=="")
+		{
+		var myDate = new Date();
+		// Y2K Fix
+		if (myDate.getYear() <= 1000) var myYear= myDate.getYear() + 1900;
+		else  myYear= myDate.getYear(); 
+		var myMonth = myDate.getMonth() +1; // this line gets the Month variable to correspond with the 		calendar month.
+		var dayOfMonth = myDate.getDate();  // this line gets the current date (day of the month).
+		var holiday = (myMonth + "/" + dayOfMonth + "/" + myYear);
+		//document.write(holiday);
+		var dateArray = new Array();
+		dateArray["11/19/2007"] = "thanksgiving";
+		dateArray["11/20/2007"] = "thanksgiving";
+		dateArray["11/21/2007"] = "thanksgiving";
+		dateArray["11/22/2007"] = "thanksgiving";
+
+		dateArray["12/21/2007"] = "christmas";
+		dateArray["12/22/2007"] = "christmas";
+		dateArray["12/23/2007"] = "christmas";
+		dateArray["12/24/2007"] = "christmas";
+		dateArray["12/25/2007"] = "christmas";
+
+		dateArray["12/28/2007"] = "newyear";
+		dateArray["12/29/2007"] = "newyear";
+		dateArray["12/30/2007"] = "newyear";
+		dateArray["12/31/2007"] = "newyear";
+		dateArray["1/1/2008"] = "newyear";
+
+		dateArray["5/24/2007"] = "memorial";
+		dateArray["5/25/2007"] = "memorial";
+		dateArray["5/26/2007"] = "memorial";
+		dateArray["5/27/2007"] = "memorial";
+		dateArray["5/28/2007"] = "memorial";
+
+		dateArray["7/1/2007"] = "independence";
+		dateArray["7/2/2007"] = "independence";
+		dateArray["7/3/2007"] = "independence";
+		dateArray["7/4/2007"] = "independence";
+
+		dateArray["8/30/2007"] = "labor";
+		dateArray["8/31/2007"] = "labor";
+		dateArray["9/1/2007"] = "labor";
+		dateArray["9/2/2007"] = "labor";
+		dateArray["9/3/2007"] = "labor";
+
+		if (dateArray[holiday])
+			{
+			window.open('holidays.htm', dateArray[holiday], 'scrollbars=no,toolbar=no,width=435,height=400');
+			}
+		}
+	document.cookie="Visited=Yes;";
+}
+
+}
+/*
+     FILE ARCHIVED ON 13:52:23 Feb 02, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:00:02 Apr 22, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.69
+  exclusion.robots: 0.084
+  exclusion.robots.policy: 0.072
+  cdx.remote: 0.061
+  esindex: 0.011
+  LoadShardBlock: 106.842 (3)
+  PetaboxLoader3.datanode: 184.626 (4)
+  load_resource: 465.836
+  PetaboxLoader3.resolve: 283.159
+*/

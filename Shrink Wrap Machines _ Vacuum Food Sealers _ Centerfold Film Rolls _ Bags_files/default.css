@@ -1,0 +1,290 @@
+body {  font-family: Arial, Verdana, Tahoma, Helvetica, Sans;
+        font-size: 8pt;
+        background-color: #ffffff;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {	margin-bottom: 0px;
+	margin-top: 5px;
+	font-family: Arial, Verdana, Tahoma, Helvetica, Sans;
+	font-weight: bold;
+	color: #656565; }
+
+h1 {	font-size: 16pt; }
+
+h1.indextitle {
+	margin-bottom: 0px;
+	margin-top: 5px;
+	font-family: Arial, Verdana, Tahoma, Helvetica, Sans;
+	font-weight: bold;
+	color: #656565;
+	font-size: 21pt; }
+
+h2 {	font-size: 13pt; }
+
+h3 {	font-size: 10pt; }
+
+h4 {	font-size: 8pt; }
+
+th,
+td {    font-family: Arial, Verdana, Tahoma, Helvetica, Sans;
+        font-size: 8pt; }
+
+dl,
+ol,
+ul {    margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 25px; }
+
+a:visited,
+a {	text-decoration: underline;
+        color: #656565; }
+
+a:hover {
+        text-decoration: none;
+        color: #EEA74C; }
+
+.tableheader,
+.tableheader td,
+.tableheader th {
+	text-decoration: none;
+	background: #E2E2E2;
+	color: 656565;
+	font-weight: bold;
+	font-size: 9pt; }
+
+.price {font-weight: bold;
+	text-align: center;
+	color: #EEA74C;
+	font-size: 11pt; }
+
+.specialprice {
+	text-align: center;
+	color: #EEA74C;
+	font-weight: bold;
+	font-size: 12pt; }
+
+.quote {
+	margin-left: 5px;
+	width: 500px;
+	text-align: justify;
+	font-weight: bold; }
+
+.pricelarge {
+	text-transform: none;
+	text-decoration: none;
+	margin-left: 25px;
+	color: #656565;
+	font-size: 12pt;
+	font-family: Arial;
+	font-weight: bold; }
+
+.guide,
+a.guide:visited,
+a.guide:link,
+a.guide
+ {
+	text-decoration: underline;
+	font-size: 8pt;
+	font-family: Arial, Verdana, Tahoma, Helv, Sans;
+	font-weight: bold;
+}
+
+a.guide:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.trail {font-weight: bold;
+}
+
+form {  font-family: Arial, Verdana, Tahoma, Helv, Sans;
+        font-size: 11px;
+        margin-left : 0px;
+        margin-right: 0px;
+        margin-top : 0px;
+        margin-bottom: 0px;
+   }
+
+li {  margin-top : 0px;
+        margin-bottom: 0px;
+   }
+
+.bottomborder {border-bottom: 1px;
+		border-bottom-color: #EEA74C;
+		border-bottom-style: solid;
+}
+
+.topborder {border-top: 1px;
+		border-top-color: #EEA74C;
+		border-top-style: solid;
+}
+
+.rightcolads {border-top: 1px;
+		border-top-color: #EEA74C;
+		border-top-style: solid;
+		border-bottom: 1px;
+		border-bottom-color: #EEA74C;
+		border-bottom-style: solid;
+		border-left: 1px;
+		border-left-color: #EEA74C;
+		border-left-style: solid;
+		border-right: 1px;
+		border-right-color: #EEA74C;
+		border-right-style: solid;
+		background-color: #EDEDED;
+}
+
+.twoborder {border-bottom: 1px;
+		border-bottom-color: #EEA74C;
+		border-bottom-style: solid;
+		border-right: 1px;
+		border-right-color: #EEA74C;
+		border-right-style: solid;
+}
+
+.searchbox {	border-bottom: 1px;
+		border-bottom-color: #656565;
+		border-bottom-style: solid;
+		border-right: 1px;
+		border-right-color: #656565;
+		border-right-style: solid;
+		border-top: 1px;
+		border-top-color: #656565;
+		border-top-style: solid;
+		border-left: 1px;
+		border-left-color: #656565;
+		border-left-style: solid;
+		font-family: Arial, Verdana, Tahoma, Helv, Sans;
+        	font-size: 12px;
+}
+
+.button {	border-bottom: 1px;
+		border-bottom-color: #656565;
+		border-bottom-style: solid;
+		border-right: 1px;
+		border-right-color: #656565;
+		border-right-style: solid;
+		border-top: 1px;
+		border-top-color: #656565;
+		border-top-style: solid;
+		border-left: 1px;
+		border-left-color: #656565;
+		border-left-style: solid;
+		font-family: Arial, Verdana, Tahoma, Helv, Sans;
+        	font-size: 12px;
+}
+
+.specialtitle { font-family: Arial, Verdana, Tahoma, Helv, Sans;
+        	font-size: 12px;
+        	font-weight: bold;
+}
+
+.specialtext { font-family: Arial, Verdana, Tahoma, Helv, Sans;
+        	font-size: 11px;
+        	text-decoration: none;
+}
+
+.cartborder { border-bottom: 1px;
+		border-bottom-color: #EEA74C;
+		border-bottom-style: solid;
+		border-right: 1px;
+		border-right-color: #EEA74C;
+		border-right-style: solid;
+		border-top: 1px;
+		border-top-color: #EEA74C;
+		border-top-style: solid;
+		border-left: 1px;
+		border-left-color: #EEA74C;
+		border-left-style: solid;
+}
+
+.idxborder { 	border-bottom: 1px;
+		border-bottom-color: #EEA74C;
+		border-bottom-style: solid;
+		border-right: 1px;
+		border-right-color: #EEA74C;
+		border-right-style: solid;
+		border-top: 1px;
+		border-top-color: #EEA74C;
+		border-top-style: solid;
+		border-left: 1px;
+		border-left-color: #EEA74C;
+		border-left-style: solid;
+}
+
+.imgborder,
+a.imgborder,
+a.imgborder:visited, { 	border-bottom: 1px;
+		border-bottom-color: #656565;
+		border-bottom-style: solid;
+		border-right: 1px;
+		border-right-color: #656565;
+		border-right-style: solid;
+		border-top: 1px;
+		border-top-color: #656565;
+		border-top-style: solid;
+		border-left: 1px;
+		border-left-color: #656565;
+		border-left-style: solid;
+}
+
+a.imgborder:hover, { 	border-bottom: 1px;
+		border-bottom-color: #EEA74C;
+		border-bottom-style: solid;
+		border-right: 1px;
+		border-right-color: #EEA74C;
+		border-right-style: solid;
+		border-top: 1px;
+		border-top-color: #EEA74C;
+		border-top-style: solid;
+		border-left: 1px;
+		border-left-color: #EEA74C;
+		border-left-style: solid;
+}
+
+.features_specs { 
+		font-weight: bold;
+		color: #EEA74C;
+		font-size: 12pt;
+}
+
+.custserv { 
+		font-weight: bold;
+		color: #656565;
+		font-size: 10pt;
+}
+
+div.broadline
+{
+	background: #656565;
+	width:100%;
+	border-top: 1px solid #FFFFFF;
+	font-size:4pt;
+}
+/*
+     FILE ARCHIVED ON 15:29:03 Mar 03, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:00:02 Apr 22, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.298
+  exclusion.robots: 0.113
+  exclusion.robots.policy: 0.098
+  cdx.remote: 0.084
+  esindex: 0.013
+  LoadShardBlock: 295.75 (3)
+  PetaboxLoader3.resolve: 126.424 (3)
+  PetaboxLoader3.datanode: 228.725 (4)
+  load_resource: 102.556
+*/
